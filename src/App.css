@@ -1,0 +1,278 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgb(128, 187, 167);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  height: fit-content;
+  width: 1330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7pc;
+}
+.home {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 3pc;
+  
+}
+.home1 {
+  display: flex;
+  gap: 2pc;
+}
+.info {
+  height: fit-content;
+  position: relative;
+  top: 8pc;
+}
+h3 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: -5pc;
+}
+h1 {
+  color: white;
+  font-size: 7pc;
+  margin-bottom: -1pc;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+.hire-btn {
+  background-color: rgb(128, 187, 167);
+  color: white;
+  cursor: pointer;
+  height: 45px;
+  width: 8.5pc;
+  border: 1px solid white;
+  transition: 1s;
+}
+button:hover {
+  background-color: white;
+  color: rgb(128, 187, 167);
+}
+.image {
+  padding-top: 6pc;
+  width: 26pc;
+  height: 26pc;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 4pc;
+  left: 7pc;
+}
+.cercle {
+  background-color: rgba(201, 211, 219, 0.699);
+  width: 26pc;
+  height: 26pc;
+  border-radius: 50%;
+  border: none;
+  overflow: hidden;
+}
+.img {
+  height: 35pc;
+  margin-top: -14.5pc;
+  position: relative;
+  bottom: 20pc;
+  right: 11.5pc;
+}
+.icon {
+  font-size: 18px;
+}
+.social {
+  display: flex;
+  gap: 20px;
+}
+.btns {
+  color: white;
+  background-color: rgb(128, 187, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 1s;
+}
+.btns:hover {
+  background-color: white;
+  color: rgb(128, 187, 167);
+}
+/* ____________________________________________________________________________________ */
+.sidebar {
+  width: 45.9pc;
+  height: fit-content;
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 13.2pc;
+  margin-left: 82pc;
+}
+ul {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  gap: 40px;
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+}
+.li {  
+  height: 100%;
+  cursor: pointer;
+  padding: 0 0 20px 0;
+  transition: 1s;
+}
+.li:hover {
+  color: rgb(188, 212, 205);
+}
+/* ______________________________________________________________ */
+h4 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: -19px;
+  margin-left: 16pc;
+}
+span {
+  color: rgb(220, 235, 89);
+}
+.description {
+  letter-spacing: 2px;
+  padding-top: 15px;
+  width: 45pc;
+  border-top: 1px solid white;
+}
+/* _____________________________________________________________ */
+.portofolio {
+  text-align: center;
+}
+.port {
+  font-size: 50px;
+}
+#port {
+  margin-bottom: 5pc;
+}
+.btnn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 10pc;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(128, 187, 167);
+  color: white;
+  font-size: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  right: 10px;
+  cursor: pointer;
+}
+.icn {
+  position: relative;
+  right: 3px;
+  top: 2px;
+}
+.prev {
+  color: white;
+  margin-right: 71pc;
+}
+.back {
+  margin-right: 20px;
+  height: 11.5pc;
+  border-radius: 30px;
+  opacity: 60%;
+}
+.back1 {
+  margin-right: 130px;
+}
+.big-pic {
+  height: 17pc;
+  border-radius: 30px;
+  position: relative;
+  bottom: 15pc;
+}
+
+
+.ratings {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  gap: 50px;
+}
+.title {
+  font-size: 50px;
+  margin-bottom: 5pc;
+  border-bottom: 3px solid white;
+  width: fit-content;
+  position: relative;
+  left: 23pc;
+  padding-bottom: 20px;
+}
+.cart{
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.profile {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 3px solid rgb(140, 140, 177);
+}
+.desc {
+  width: 200px;
+  color: rgb(74, 82, 79);
+}
+.div {
+  font-size: 3pc;
+  color: rgb(140, 140, 177);
+  margin: -10px 0;
+}
+.name {
+  color: rgb(74, 82, 79);
+}
+/* __________________________________________________________________ */
+.title1 {
+  font-size: 50px;
+  margin-bottom: 5pc;
+  border-bottom: 3px solid white;
+  width: fit-content;
+  position: relative;
+  left: 7.5pc;
+  padding-bottom: 15px;
+}
+input {
+  font-size: 15px;
+  height: 37px;
+  width: 25pc;
+  text-indent: 8px;
+  margin-right: 20px;
+  border: none;
+}
+.sub {
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  height: 39px;
+  width: 8pc;
+  color: white;
+  background-color: rgb(128, 187, 167);
+  cursor: pointer;
+}
+.sub:hover {
+  color: rgb(128, 187, 167);
+  background-color: white;
+}
