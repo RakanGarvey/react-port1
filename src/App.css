@@ -1,7 +1,6 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0;
   background-color: rgb(128, 187, 167);
   background-repeat: no-repeat;
@@ -9,21 +8,23 @@ body {
 }
 .container {
   height: fit-content;
-  width: 1330px;
+  /* width: 1330px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 7pc;
+  padding-bottom: 3pc;
 }
 .home {
+  margin-top: 6pc;
   width: 90%;
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 3pc;
-  
+  /* left: 3pc; */
 }
 .home1 {
+  width: fit-content;
   display: flex;
   gap: 2pc;
 }
@@ -66,9 +67,9 @@ button:hover {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   overflow: hidden;
-  position: relative;
-  top: 4pc;
-  left: 7pc;
+  /* position: relative; */
+  /* top: 4pc;
+  left: 7pc; */
 }
 .cercle {
   background-color: rgba(201, 211, 219, 0.699);
@@ -89,6 +90,7 @@ button:hover {
   font-size: 18px;
 }
 .social {
+  width: fit-content;
   display: flex;
   gap: 20px;
 }
@@ -111,25 +113,24 @@ button:hover {
 }
 /* ____________________________________________________________________________________ */
 .sidebar {
-  width: 45.9pc;
-  height: fit-content;
-  transform: rotate(-90deg);
-  position: fixed;
-  top: 13.2pc;
-  margin-left: 82pc;
+  background-color: rgba(59, 165, 156, 0.322);
+  width: fit-content;
+  z-index: 10;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 ul {
+  padding: 0 20px;
   font-weight: 900;
   color: rgb(255, 255, 255);
   gap: 40px;
   font-size: 20px;
   display: flex;
+  flex-direction: row-reverse;
   list-style-type: none;
 }
 .li {  
-  height: 100%;
   cursor: pointer;
-  padding: 0 0 20px 0;
   transition: 1s;
 }
 .li:hover {
@@ -154,9 +155,25 @@ span {
 /* _____________________________________________________________ */
 .portofolio {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .port {
   font-size: 50px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  position: relative;
+  /* left: 2pc; */
 }
 #port {
   margin-bottom: 5pc;
@@ -166,14 +183,13 @@ span {
   width: 40px;
   border-radius: 50%;
   position: relative;
-  top: 10pc;
+  top: 9pc;
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(128, 187, 167);
   color: white;
   font-size: 30px;
   margin-bottom: 40px;
-  position: relative;
-  right: 10px;
+  /* right: 10px; */
   cursor: pointer;
 }
 .icn {
@@ -183,22 +199,22 @@ span {
 }
 .prev {
   color: white;
-  margin-right: 71pc;
+  margin-right: 61pc;
 }
 .back {
-  margin-right: 20px;
-  height: 11.5pc;
+  /* margin-right: 10px; */
+  height: 10pc;
   border-radius: 30px;
   opacity: 60%;
 }
 .back1 {
-  margin-right: 130px;
+  margin-right: 100px;
 }
 .big-pic {
-  height: 17pc;
+  height: 13.5pc;
   border-radius: 30px;
   position: relative;
-  bottom: 15pc;
+  bottom: 11.5pc;
 }
 
 
@@ -213,9 +229,7 @@ span {
   margin-bottom: 5pc;
   border-bottom: 3px solid white;
   width: fit-content;
-  position: relative;
-  left: 23pc;
-  padding-bottom: 20px;
+  padding-bottom: 19px;
 }
 .cart{
   padding-top: 20px;
