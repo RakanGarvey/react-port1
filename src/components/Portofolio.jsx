@@ -3,8 +3,8 @@ import back1 from '../images/back1.png'
 import back2 from '../images/back2.png'
 import back3 from '../images/back3.png'
 import back4 from '../images/back4.png'
-import {FcNext} from 'react-icons/fc'
-import {FcPrevious} from 'react-icons/fc'
+import {IoIosArrowForward} from 'react-icons/io'
+import {IoIosArrowBack} from 'react-icons/io'
 import {RxDividerHorizontal} from 'react-icons/rx'
 import { useState } from 'react'
 import pro1 from '../images/pro1.jpg'
@@ -43,8 +43,9 @@ const Portofolio = () => {
             <p>Some of the projects i have recently worked on</p>
         </div>
         <div>
-            <button className='btnn prev' onClick={prev}><FcPrevious className='icn'/></button>
-            <button className='btnn next' onClick={next}><FcNext className='icn'/></button>
+            <button className='btnn prev' onClick={prev}><IoIosArrowBack className='icn'/></button>
+            <button className='btnn next' onClick={next}><IoIosArrowForward className='icn'/></button>
+            <div className="projects">
             <div className="background">
                 <img src={back1} alt="" className='back'/>
                 <img src={back2} alt="" className='back back1'/>
@@ -53,6 +54,7 @@ const Portofolio = () => {
             </div>
             <div>
                 <img src={immg} alt="" className='big-pic'/>
+            </div>
             </div>
         </div>
         <h1 className='title'>What My Clients Says</h1>
