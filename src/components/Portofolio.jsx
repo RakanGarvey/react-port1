@@ -43,8 +43,6 @@ const Portofolio = () => {
             <p>Some of the projects i have recently worked on</p>
         </div>
         <div>
-            <button className='btnn prev' onClick={prev}><IoIosArrowBack className='icn'/></button>
-            <button className='btnn next' onClick={next}><IoIosArrowForward className='icn'/></button>
             <div className="projects">
             <div className="background">
                 <img src={back1} alt="" className='back'/>
@@ -52,8 +50,12 @@ const Portofolio = () => {
                 <img src={back3} alt="" className='back'/>
                 <img src={back4} alt="" className='back'/>
             </div>
-            <div>
+            <div className='big-cont'>
                 <img src={immg} alt="" className='big-pic'/>
+                <div className="switch-btn">
+                    <button className='btnn prev' onClick={prev}><IoIosArrowBack className='icn'/></button>
+                    <button className='btnn next' onClick={next}><IoIosArrowForward className='icn'/></button>
+                </div>
             </div>
             </div>
         </div>
