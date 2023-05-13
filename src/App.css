@@ -219,7 +219,6 @@ span {
 }
 .background {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   width: fit-content;
   z-index: 0;
